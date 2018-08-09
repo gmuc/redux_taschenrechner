@@ -1,16 +1,15 @@
 {
-	"name": "react-vote-example",
+	"name": "redux-hello-world",
 	"version": "1.0.0",
-	"description": "React Demo: Einfacher Taschenrechner",
+	"description": "Ein Zauber liegt in jedem Anfang ...",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/gmuc/redux_taschenrechner.git"
+		"url": ""
 	},
 	"scripts": {
 		"start": "node devserver.js"
 	},
-	"author": "Gerd Mucha",
-	"license": "MIT",
+	"license": "ISC",
 	"devDependencies": {
 		"babel-core": "^6.4.0",
 		"babel-loader": "^6.2.1",
@@ -22,10 +21,13 @@
 		"webpack-dev-server": "^1.14.1"
 	},
 	"dependencies": {
+		"4": "0.0.0",
 		"babel-register": "^6.4.3",
 		"hapi": "12.1.0",
 		"inert": "3.2.0",
-		"react": "^0.14.6",
-		"react-dom": "^0.14.6"
+		"react": "^0.14.3",
+		"react-dom": "^0.14.3",
+		"react-redux": "^4.4.9",
+		"redux": "^3.2.1"
 	}
 }
