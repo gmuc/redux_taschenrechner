@@ -22,6 +22,7 @@ Beispiel:
 
 ```
 git clone https://github.com/gmuc/redux_taschenrechner.git
+cd redux_taschenrechner/mit_redux
 npm install
 npm start
 ```
