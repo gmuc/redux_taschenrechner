@@ -8,12 +8,15 @@ export const RESET_WERT2 = 'RESET_WERT2';
 export const UPDATE_ERGEBNIS = 'UPDATE_ERGEBNIS';
 export const RESET_ERGEBNIS = 'RESET_ERGEBNIS';
 
-// Action creator
+// updateWert1 = Action creator
+// action = die Action die verarbeitet wird
 export function updateWert1(wert1) {
-	return {
+	let action = {
 		type: UPDATE_WERT1,
 		wert1,
 	};
+
+	return action;
 }
 
 export function resetWert1() {
@@ -49,4 +52,3 @@ export function resetErgebnis() {
 		type: RESET_ERGEBNIS,
 	};
 }
-
