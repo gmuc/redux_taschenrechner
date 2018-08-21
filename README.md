@@ -28,7 +28,7 @@ npm start
 
 ## Authors
 
-* **Gerd Muchan** 
+* **Gerd Mucha** 
 
 ## License
 
