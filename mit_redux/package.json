@@ -23,7 +23,6 @@
 	"dependencies": {
 		"4": "0.0.0",
 		"babel-register": "^6.4.3",
-		"hapi": "12.1.0",
 		"inert": "3.2.0",
 		"react": "^0.14.3",
 		"react-dom": "^0.14.3",
