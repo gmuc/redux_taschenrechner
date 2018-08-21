@@ -8,8 +8,8 @@ Mit dem Projekt bekommst Du eine Einführung wie man mit Redux unter React arbei
 
 Im Projekt git es zwei Verzeichnisse:
 
-- ohne_redux ==> Taschenrechner nur mit React OHNE Redus
-- mit_redux ==> Taschenrechner nur mit React UND Redus
+- ohne_redux ==> Taschenrechner nur mit React OHNE Redux
+- mit_redux ==> Taschenrechner nur mit React UND Redux
 
 ### Installing
 
