@@ -9,6 +9,7 @@ import {
 	RESET_ERGEBNIS,
 } from './actions';
 
+// state = 'Wert1?' ist eine ES6 Vorbelegung von State, die relevant ist für den ersten Aufruf, wenn noch kein Wert vorhanden ist
 function wert1Reducer(state = 'Wert1?', action) {
 	switch (action.type) {
 		case UPDATE_WERT1:
@@ -16,6 +17,7 @@ function wert1Reducer(state = 'Wert1?', action) {
 		case RESET_WERT1:
 			return '';
 		default:
+			// wenn der Action-Type nicht verarbeitet wird (weil er z.B. nicht relevant ist) wird einfach der aktuelle state zurückgegeben
 			return state;
 	}
 }

@@ -12,6 +12,8 @@ class Taschenrechner extends React.Component {
 		updateErgebnis(gleichung);
 	}
 
+	// shorthand of
+	// minus: function(wert1, wert2, updateErgebnis){/* code */}
 	minus(wert1, wert2, updateErgebnis) {
 		let differenz = Number(wert1) - Number(wert2);
 
