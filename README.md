@@ -17,6 +17,7 @@ Im Projekt git es zwei Verzeichnisse:
 2. in das Projektverzeichnis gehen
 3. notwendige Pakete installieren
 4. Projekt starten
+5. Taschenrechner im Browser aufrufen
 
 Beispiel:
 
@@ -25,6 +26,7 @@ git clone https://github.com/gmuc/redux_taschenrechner.git
 cd redux_taschenrechner/mit_redux
 npm install
 npm start
+http://localhost:8080/
 ```
 
 ## Authors
